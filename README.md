@@ -13,7 +13,7 @@ stochastique et reproduire le smile de volatilité observé sur les options SPY.
 ![Calibration Heston](calibration_heston.png)
 
 Après calibration sur options SPY mars 2027 :
-- **Black-Scholes** échoue à reproduire le smile — vol plate à 20%
+- **Black-Scholes** échoue à reproduire le smile, vol plate à 20%
 - **Heston initial** capture la structure mais est décalé avec des paramètres arbitraires
 - **Heston calibré** colle au marché réel, notamment sur la zone ATM
 
@@ -43,17 +43,6 @@ Avec dW₁ et dW₂ corrélés par ρ — le leverage effect.
 | ρ (rho) | -0.70 | -0.990 | Leverage effect extrême — marché sous tension |
 | V₀ | 20% | 21.5% | Vol actuelle cohérente avec le VIX |
 
----
-
-## Structure du projet
-```
-heston-stochastic-volatility-sp500/
-│
-├── heston_simulation.py    # Simulation, pricing et smile
-├── heston_calibration.py   # Calibration sur données réelles
-├── calibration_heston.png  # Graphique final
-└── README.md
-```
 
 ---
 
