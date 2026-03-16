@@ -7,7 +7,7 @@ Ce projet implémente le modèle de Heston pour modéliser une volatilité stoch
 et reproduire le smile de volatilité observé sur les options S&P500.
 
 Ce projet fait suite à l'observation du smile de volatilité empirique :
-[options-volatility-smile](lien_vers_ton_repo)
+[options-pricer-s-p500](lien_vers_ton_repo)
 
 ---
 
