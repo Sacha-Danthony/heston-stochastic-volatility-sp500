@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Black-Scholes suppose une volatilité constante — ce qui est contredit par le marché réel.
+Black-Scholes suppose une volatilité constante, ce qui est contredit par le marché réel.
 Ce projet implémente et calibre le modèle de Heston pour modéliser une volatilité 
 stochastique et reproduire le smile de volatilité observé sur les options SPY.
 
