@@ -55,7 +55,7 @@ Avec dW₁ et dW₂ corrélés par ρ.
 ## Étapes du projet
 
 **1. Simulation Monte Carlo**
-10 000 trajectoires via schéma d'Euler-Maruyama.
+10 000 trajectoires.
 Full truncation scheme pour éviter les variances négatives.
 
 **2. Pricing d'options européennes**
