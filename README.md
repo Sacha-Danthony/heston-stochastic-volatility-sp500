@@ -16,15 +16,6 @@ et reproduire le smile de volatilité observé sur les options S&P500.
 - **Heston** : skew asymétrique généré par le leverage effect (ρ = -0.7)
 - **Marché réel** : smile SPY mars 2027 — Heston capture la structure mais nécessite une calibration
 
----
-
-## Structure du projet
-```
-heston-stochastic-volatility-sp500/
-│
-├── heston_simulation.py   # Code principal
-└── README.md
-```
 
 ---
 
