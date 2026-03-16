@@ -6,9 +6,6 @@ Black-Scholes suppose une volatilité constante — ce qui est contredit par le 
 Ce projet implémente le modèle de Heston pour modéliser une volatilité stochastique
 et reproduire le smile de volatilité observé sur les options S&P500.
 
-Ce projet fait suite à l'observation du smile de volatilité empirique :
-[options-pricer-s-p500](lien_vers_ton_repo)
-
 ---
 
 ## Résultats
